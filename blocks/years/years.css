@@ -1,0 +1,39 @@
+.years {
+    background-color: #E9E9E9;
+    padding: 50px 0;
+}
+
+.years__content {
+    max-width: 1061px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.years__title {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 121.52%;
+    letter-spacing: 0.01em;
+
+    color: rgba(1, 28, 123, 0.79);
+
+    min-width: 342px;
+}
+
+.years__about {
+    margin: 0;
+    margin-left: 26px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 121.52%;
+    /* or 29px */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
