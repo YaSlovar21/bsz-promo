@@ -6,8 +6,25 @@
 
 }
 
+.advanced__heading {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 121.52%;
+    /* identical to box height, or 44px */
+
+    letter-spacing: 0.01em;
+
+    color: #E9E9E9;
+
+    margin-bottom: 40px;
+}
+
 .advanced__intro {
     background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
 }
 
 .advanced__desc-container {
@@ -20,6 +37,8 @@
 
     box-sizing: border-box;
     margin-right: 18px;
+
+    margin-bottom: 100px;
 }
 
 .advanced__title-desc {

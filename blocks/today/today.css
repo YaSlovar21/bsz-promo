@@ -1,0 +1,6 @@
+.today {
+    background-image: url(../../images/back-today1.png);
+    background-size: 100%, contain;
+    background-position: 0 176px;
+    background-repeat: no-repeat;
+}

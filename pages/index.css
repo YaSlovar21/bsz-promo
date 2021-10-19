@@ -8,8 +8,13 @@
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/intro/intro.css);
 
+@import url(../blocks/today/today.css);
 @import url(../blocks/years/years.css);
 @import url(../blocks/features/features.css);
 @import url(../blocks/advanced/advanced.css);
+@import url(../blocks/cardslider/cardslider.css);
+@import url(../blocks/motivation/motivation.css);
+
+@import url(../blocks/footer/footer.css);
 /*@import url(../blocks
 /*@import url(../blocks*/
