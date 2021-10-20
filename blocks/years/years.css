@@ -37,3 +37,35 @@
 
     color: #000000;
 }
+
+@media screen and (max-width: 1100px) {
+    .years {
+        padding: 34px 0;
+    }
+    .years__content {
+        /*max-width: calc(100% - 40px);*/
+        max-width: 700px;
+        justify-content: space-between;
+    }
+    .years__title {
+        font-size: 36px;
+        min-width: 205px;
+    }
+    .years__about {
+        font-size: 14px;
+        max-width: 480px; /*можно подправить */
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .years__content {
+        flex-direction: column;
+    }
+    .years__about {
+        max-width: 215px;
+        margin: 35px 0 0;
+        text-align: center;
+        line-height: 1.5;
+    }
+}

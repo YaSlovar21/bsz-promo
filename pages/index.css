@@ -11,7 +11,10 @@
 @import url(../blocks/today/today.css);
 @import url(../blocks/years/years.css);
 @import url(../blocks/features/features.css);
+
 @import url(../blocks/advanced/advanced.css);
+@import url(../blocks/firm/firm.css);
+
 @import url(../blocks/cardslider/cardslider.css);
 @import url(../blocks/motivation/motivation.css);
 

@@ -34,10 +34,6 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 145.02%;
-    /* or 35px */
-    
-    letter-spacing: 0.01em;
-    text-indent: 50px;
     
     color: #FFFFFF;
 }
@@ -53,4 +49,26 @@
     color: #0093DD;
     font-weight: 600;
     margin-right: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .motivation {
+        max-width: calc(100% - 40px);
+    }
+    .motivation__title {
+        font-size: 24px;
+    }
+    .motivation__intro {
+        font-size: 18px;
+    }
+    .motivation__list {
+        font-size: 18px;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .motivation__list {
+        font-size: 14px;
+    }
 }
