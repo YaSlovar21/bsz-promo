@@ -11,6 +11,7 @@
 
 .cardslider__image {
     min-width: 0;
+    min-height: 0;
     flex-basis: 420px;
     object-fit: contain;
     object-position: top;
@@ -76,5 +77,33 @@
 
     .cardslider__p {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cardslider__slide {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    .cardslider__image {
+        flex-basis: initial;
+        max-width: 80%;
+    }
+    .cardslider__desc {
+        flex-basis: initial;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .cardslider__p:nth-of-type(n + 2) {
+        display: none;
+    }
+
+    .cardslider__nav {
+        margin-top: 20px;
+    }
+    .cardslider__nav-item {
+        font-size: 11px;
+        padding: 5px 8px;
     }
 }
